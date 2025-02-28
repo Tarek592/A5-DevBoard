@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn link start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- google font close  -->
+</head>
+<body class="bg-[#f4f7ff] ">
+    <header class="container mx-auto   font-[Poppins] pt-10 ">
+        <!-- navber start  -->
+        <div class="navbar bg-base-100   rounded-lg px-4  ">
+            <div class="flex-1 text-3xl ">
+                <img src="./image/logo.png" alt="">
+              <h1>Dev<span class="text-[#00303c] text-3xl font-bold ">Board</span></h1>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1">
+                <li class="">
+                    <div class="flex bg-[#F4F7FF] rounded-full">
+                        <img src="./image/checkbox.png" alt="">
+                        <h1 class="text-3xl text-[#1E1E1E] font-bold">23</h1>
+                    </div>
+                </li>
+                <li>
+                   <div class="bg-[#F4F7FF] rounded-full ml-10">
+                    <img src="./image/theme-btn.png" alt="" srcset="">
+                   </div>
+               
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- navber close  -->
+    </header>
+    <main class="grid grid-cols-[1fr_366px] gap-4 container mx-auto mt-5 mb-10 pb-10">
+        <!-- Left Section -->
+        <section class="w-full bg-white rounded-lg">
+            <div class="flex flex-wrap gap-4 mb-6 justify-between m-6 ">
+                <div class="w-64 h-32 bg-[#f4f7ff] flex  items-center p-4 pl-8 rounded-lg">
+                    <div class="pr-5"><img src="./image/checkbox.png" alt="Task Icon"></div>
+                    <div>
+                        <p class="font-medium text-[#00303C]">Task Assigned</p>
+                        <h1 class="text-3xl font-bold text-[text-3xl]">05</h1>
+                    </div>
+                </div>
+                
+                <div class="flex-1 min-w-[256px] h-32  bg-gradient-to-r from-[#3752FD] to-[#9BA8F8]  flex  items-center p-4 pl-9 rounded-lg">
+                    <div><img src="image/board.png" alt="Board Icon"></div>
+                    <h1 class="text-2xl	 font-medium w-64 pl-5  text-white">Discover Something New Today!</h1>
+                </div> 
+                
+                <div class="w-64 h-32 bg-[#f4f7ff] flex justify-around items-center p-4  rounded-lg">
+                    <img src="image/calender.png" alt="Calendar Icon">
+                    <h1 class="text-2xl font-semibold pl-2 ">Wed, Jul 28 2025</h1>
+                </div>
+            </div>
+            
+
+            <!-- Cards Section -->
+            <div class="grid grid-cols-3 gap-6 bg-white">
+                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
+                            <h3 >ShopEase</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Fix Mobile Button Issue </h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Debug using Chrome DevTools, check for overlapping... </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
+                            <h3 >CloudSync</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Add Dark Mode</h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Store the user's preference in localStorage, update CSS... </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
+                            <h3 >SwiftPay</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Optimize  Home page</h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Debug using Chrome DevTools, check for overlapping... </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
+                            <h3 >Meta</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Add new emoji 🤲</h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Debug using Chrome DevTools, check for overlapping... </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+                 <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-28 rounded-lg text-[#00303C]">
+                            <h3 >Google LLC</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Integrate OpenAI API  </h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Debug using Chrome DevTools, check for overlapping- </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                    <div class="border-b border-b-gray-400 border-dotted  m-6">
+                        <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
+                            <h3 >Glassdoar</h3>
+                        </div>
+                        <h1 class="text-2xl text-[#00303C] font-semibold mb-4 ">Improve Job searching  </h1>
+                        <div class="bg-white text-gray-600 mb-4  rounded-lg p-4 ">
+                            <p >Debug using Chrome DevTools, check for overlapping... </p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between  m-6 ">
+                        <div>
+                            <h3 class="font-normal text-sm text-[#00303C]">Deadline</h3>
+                            <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                        </div>
+                    </div>
+               
+                </div>
+              
+
+            </div>
+            
+            
+            
+        </section>
+
+        <!-- Right Sidebar -->
+        <section class="w-[366px] bg-white shadow-lg rounded-lg p-6">
+           
+        </section>
+    </main>
+    <footer>
+    
+    </footer>
+</body>
+
+    <script src="./script.js"></script>
+
+</html>
