@@ -183,3 +183,6 @@ const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric
 let currtenDate=today.toLocaleDateString('en-GB', options) 
 document.getElementById("currtentDate").innerText=currtenDate;
 
+document.getElementById("discover" ).addEventListener("click",function(){
+     window.location.href="main.html"
+})
