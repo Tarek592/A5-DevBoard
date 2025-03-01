@@ -30,6 +30,9 @@ let activities=document.getElementById("activity");
 activities.innerHTML=`
 <h1 class="bg-gray-300 rounded-lg m-2 p-2">You have Complete The Task ${title} at ${time}</h1>
 `
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
  function disableButton(button) {
     button.disabled = true;
@@ -57,6 +60,9 @@ document.getElementById("cardBtn-2").addEventListener('click',function(){
     activities.innerHTML=`
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
 //  card 3 start
 document.getElementById("cardBtn-3").addEventListener('click',function(){
@@ -77,6 +83,9 @@ document.getElementById("cardBtn-3").addEventListener('click',function(){
     activities.innerHTML=`
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
 //  card 4 start
 document.getElementById("cardBtn-4").addEventListener('click',function(){
@@ -97,6 +106,9 @@ document.getElementById("cardBtn-4").addEventListener('click',function(){
     activities.innerHTML=`
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
 //  card 5 start
 document.getElementById("cardBtn-5").addEventListener('click',function(){
@@ -117,6 +129,9 @@ document.getElementById("cardBtn-5").addEventListener('click',function(){
     activities.innerHTML=`
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
  //  card 6 start
  document.getElementById("cardBtn-6").addEventListener('click',function(){
@@ -137,6 +152,13 @@ document.getElementById("cardBtn-5").addEventListener('click',function(){
     activities.innerHTML=`
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
+
+
+
+
+if(task==0){
+    alert("congrates!!! You Have Completed all the current task")
+}
  })
 
 //  activity btn
@@ -155,4 +177,9 @@ let btn6=document.getElementById("activity-5");
 btn6.style.display='none'
 
 })
+// current date 
+const today = new Date();
+const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+let currtenDate=today.toLocaleDateString('en-GB', options) 
+document.getElementById("currtentDate").innerText=currtenDate;
 
