@@ -21,8 +21,21 @@ function getColor(){
     document.getElementById("updateNumber").innerText=update;
     alert("board updated successfully")
    
+    let title=document.getElementById("title").innerText
+    const d = new Date();
+    let time = d.toLocaleTimeString();
+
+
+let activities=document.getElementById("activity");
+activities.innerHTML=`
+<h1 class="bg-gray-300 rounded-lg m-2 p-2">You have Complete The Task ${title} at ${time}</h1>
+`
+
 
  })
  function disableButton(button) {
     button.disabled = true;
 }
+
+
+
