@@ -72,7 +72,7 @@ document.getElementById("cardBtn-3").addEventListener('click',function(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("Board updated Buccessfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title-2" ).innerText
     const d = new Date();

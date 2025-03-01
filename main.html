@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn link start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- google font close  -->
+</head>
+<body class="bg-[#f4f7ff] ">
+    <header class="container mx-auto   font-[Poppins] pt-10 ">
+        <!-- navber start  -->
+        <div class="navbar bg-base-100   rounded-lg px-4  ">
+            <div class="flex-1 text-3xl ">
+                <img src="./image/logo.png" alt="">
+              <h1>Dev<span class="text-[#00303c] text-3xl font-bold ">Board</span></h1>
+            </div>
+            <div class="flex-none">
+              <button class="btn btn-primary">Back to Desk</button>
+            </div>
+          </div>
+          <!-- navber close  -->
+    </header>
+    <main class="container mx-auto text-center mt-4 pb-6">
+        <h1 class="text-3xl font-bold mb-4">Blogs</h1>
+        <div class=" bg-base-100 rounded-lg p-6 text-left mb-4">
+            <div class=" font-semibold border-b border-gray-400 border-dashed pb-4 mb-2">
+                <h1 class="text-xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
+            </div>
+            <div class=" p-2"><h1 class="text-lg text-gray-500 ">There are many different ways to select an element in the Dom.
+                Example:-
+                
+                </h1>
+                <ul type="circle ">
+                    <li class="list-disc list-inside text-gray-500">getElementById()-Selects an element by its id name.</li>
+                    <li class="list-disc list-inside text-gray-500">getElementsByClassName()-elects elements by their class name.</li>
+                    <li class="list-disc list-inside text-gray-500">getElementsByTagName()-Selects elements by their tag name .</li>
+                    <li class="list-disc list-inside text-gray-500">querySelector()-Selects the first element that matches a class id or tag names.</li>
+
+                    <li class="list-disc list-inside text-gray-500">querySelectorAll()-Selects all elements that match a specified class ,id or tag selector.</li>
+                    <li class="list-disc list-inside text-gray-500">getAttribute()-Allows select elements based on their attributes.</li>
+
+
+                </ul>
+            </div>
+          </div>
+          <div class=" bg-base-100 rounded-lg p-6 text-left mb-4">
+            <div class=" font-semibold border-b border-gray-400 border-dashed pb-4 mb-2">
+                <h1 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+
+                </h1>
+            </div>
+            <div class=" p-2"><h1 class="text-lg text-gray-500 ">The difference between innerHtml, innerText and textContent is given by itself</h1>
+                <h1 class="text-lg text-gray-500 ">innerHTML:- It returns or sets the HTML markup inside the element, including tags.</h1>
+                <h1 class="text-lg text-gray-500 ">innerText:- It returns or sets the "manually" text content of an element. This means it only gets the text visible to the user, ignoring any HTML tags.</h1>
+                <h1 class="text-lg text-gray-500 ">textContent:- It returns or sets the raw text content, also ignoring HTML tags.</h1>
+            </div>
+          </div>
+          <div class=" bg-base-100 rounded-lg p-6 text-left mb-4">
+            <div class=" font-semibold border-b border-gray-400 border-dashed pb-4 mb-2">
+                <h1 class="text-xl font-bold">Question-3: What is event delegation in the DOM?
+
+                </h1>
+            </div>
+            <div class=" p-2"><h1 class="text-lg text-gray-500 ">Event Delegation is a pattern for handling DOM events in JavaScript. It adds the event handler to the parent element and the child element's event handler to the event element.</h1></div>
+          </div>
+          <div class=" bg-base-100 rounded-lg p-6 text-left mb-4">
+            <div class=" font-semibold border-b border-gray-400 border-dashed pb-4 mb-2">
+                <h1 class="text-xl font-bold">Question-4: What is event bubbling in the DOM?
+
+                </h1>
+            </div>
+            <div class=" p-2"><h1 class="text-lg text-gray-500 ">
+                Event bubbling is a process where an event starts from its innermost target element and progressively reaches its parent elements.</h1></div>
+          </div>
+          <div class=" bg-base-100 rounded-lg p-6 text-left mb-4">
+            <div class=" font-semibold border-b border-gray-400 border-dashed pb-4 mb-2">
+                <h1 class="text-xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+
+                </h1>
+            </div>
+            <div class=" p-2">
+                <h1 class="text-lg text-gray-500 ">JavaScript can be used to manipulate the DOM (Document Object Model), whereby new HTML elements can be created, or add and removed.</h1>
+                <h1 class="text-lg text-gray-500 ">createElement is a JavaScript method used to create new HTML elements in the Document Object Model (DOM).</h1>
+                <h1 class="text-lg text-gray-500 ">appendChild() is a JavaScript method used to append a new child element to the end of an existing parent element.</h1>
+                <h1 class="text-lg text-gray-500 ">removeChild() method is used to remove an element from the DOM. It removes a child element from a parent element.</h1>
+            </div>
+          </div>
+          
+
+    </main>
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
