@@ -19,7 +19,7 @@ function getColor(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title").innerText
     const d = new Date();
@@ -49,7 +49,7 @@ document.getElementById("cardBtn-2").addEventListener('click',function(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title-1" ).innerText
     const d = new Date();
@@ -72,7 +72,7 @@ document.getElementById("cardBtn-3").addEventListener('click',function(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Buccessfully")
    
     let title=document.getElementById("title-2" ).innerText
     const d = new Date();
@@ -95,7 +95,7 @@ document.getElementById("cardBtn-4").addEventListener('click',function(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title-3" ).innerText
     const d = new Date();
@@ -118,7 +118,7 @@ document.getElementById("cardBtn-5").addEventListener('click',function(){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title-4" ).innerText
     const d = new Date();
@@ -141,7 +141,7 @@ if(task==0){
     let updateNumber=parseInt(document.getElementById("updateNumber").innerText);
     let update=updateNumber+1
     document.getElementById("updateNumber").innerText=update;
-    alert("board updated successfully")
+    alert("Board updated Successfully")
    
     let title=document.getElementById("title-5" ).innerText
     const d = new Date();
