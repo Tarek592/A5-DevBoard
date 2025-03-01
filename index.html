@@ -26,11 +26,11 @@
                 <li class="">
                     <div class="flex bg-[#F4F7FF] rounded-full">
                         <img src="./image/checkbox.png" alt="">
-                        <h1 class="text-3xl text-[#1E1E1E] font-bold">23</h1>
+                        <h1 id="updateNumber" class="text-3xl text-[#1E1E1E] font-bold">23</h1>
                     </div>
                 </li>
                 <li>
-                   <div class="bg-[#F4F7FF] rounded-full ml-10">
+                   <div id="colorBtn" class= "bg-[#F4F7FF] rounded-full ml-10">
                     <img src="./image/theme-btn.png" alt="" srcset="">
                    </div>
                
@@ -48,7 +48,7 @@
                     <div class="pr-5"><img src="./image/checkbox.png" alt="Task Icon"></div>
                     <div>
                         <p class="font-medium text-[#00303C]">Task Assigned</p>
-                        <h1 class="text-3xl font-bold text-[text-3xl]">05</h1>
+                        <h1 id="taskNumber" class="text-3xl font-bold text-[text-3xl]">6</h1>
                     </div>
                 </div>
                 
@@ -66,7 +66,7 @@
 
             <!-- Cards Section -->
             <div class="grid grid-cols-3 gap-6 bg-white">
-                <div class="bg-[#f4f7ff] m-4 rounded-lg">
+                <div  class="bg-[#f4f7ff] m-4 rounded-lg">
                     <div class="border-b border-b-gray-400 border-dotted  m-6">
                         <div class="mb-2 p-3 bg-white w-24 rounded-lg text-[#00303C]">
                             <h3 >ShopEase</h3>
@@ -82,7 +82,7 @@
                             <h1 class="text-[#00303C] font-medium">21 March 2025</h1>
                         </div>
                         <div>
-                            <button class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
+                            <button id="cardBtn-1" onclick="disableButton(this)" class="btn btn-primary w-36 text-base font-medium text-white">Completed</button>
                         </div>
                     </div>
                
@@ -201,8 +201,8 @@
         </section>
 
         <!-- Right Sidebar -->
-        <section class="w-[366px] bg-white shadow-lg rounded-lg p-6">
-       <div class="  justify-items-center mx-auto border-b border-dotted border-black pb-4 ">
+        <section class="w-[366px] bg-white  rounded-lg p-6">
+       <div class="  justify-items-center mx-auto border-b border-dotted border-gray-400 pb-4 ">
             <div class="flex items-center ">
                <div>
                     <img src="./image/activity.png" alt="">
