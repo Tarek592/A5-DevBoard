@@ -138,3 +138,21 @@ document.getElementById("cardBtn-5").addEventListener('click',function(){
     <h1 class="bg-gray-300 rounded-lg m-2 p-2 mt-3">You have Complete The Task ${title} at ${time}</h1>
 `
  })
+
+//  activity btn
+document.getElementById("active-btn").addEventListener('click',function(){
+let btn1=document.getElementById("activity");
+btn1.style.display='none'
+let btn2=document.getElementById("activity-1");
+btn2.style.display='none'
+let btn3=document.getElementById("activity-2");
+btn3.style.display='none'
+let btn4=document.getElementById("activity-3");
+btn4.style.display='none'
+let btn5=document.getElementById("activity-4");
+btn5.style.display='none'
+let btn6=document.getElementById("activity-5");
+btn6.style.display='none'
+
+})
+
